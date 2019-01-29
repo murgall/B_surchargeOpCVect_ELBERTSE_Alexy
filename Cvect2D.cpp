@@ -1,5 +1,25 @@
 #include "Cvect2D.h"
 #pragma once
+//récupère la valeur en x du vecteur
+float Cvect2D::getVecteurEnX() const
+{
+	return m_fltX;
+}
+//récupère la valeur en y du vecteur
+float Cvect2D::getVecteurEnY() const
+{
+	return m_fltY;;
+}
+//set la valeur en x du vecteur
+void Cvect2D::setVecteurEnX(float fltX)
+{
+	m_fltX = fltX;
+}
+//set la valeur en y du vecteur
+void Cvect2D::setVecteurEnY(float fltY)
+{
+	m_fltY = fltY;
+}
 
 //destructeur
 Cvect2D::~Cvect2D()

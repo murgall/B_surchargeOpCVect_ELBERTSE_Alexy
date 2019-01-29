@@ -15,6 +15,12 @@ private:
 
 	//fonctions membres
 public:
+	//accesseur et mutateur
+	float getVecteurEnX()const;
+	float getVecteurEnY()const;
+	void setVecteurEnX(float fltX);
+	void setVecteurEnY(float fltY);
+
 	//constructeur
 	Cvect2D(float abs = 0, float ord = 0) :m_fltX(abs), m_fltY(ord) {}
 
